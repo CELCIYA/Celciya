@@ -1,0 +1,12 @@
+{
+    "manifest_version":2,
+    "name":"Extension",
+    "description":"Quick launch",
+    "vesion":"1.0.0",
+    "icons": {"225":"fst.jpg"},
+    "browser_action": {
+        "default_icon": "g.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
